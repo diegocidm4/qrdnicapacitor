@@ -49,10 +49,16 @@ repositories {
 
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation files('libs/qrdnidroid-release.aar')
+    implementation files('libs/jpeg2000.jar')
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation ('me.dm7.barcodescanner:zxing:1.9.8') {
+        exclude group: 'com.android.support'
+    }
     implementation project(':capacitor-android')
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+
 }

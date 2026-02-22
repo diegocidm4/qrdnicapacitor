@@ -1,7 +1,7 @@
 {
   "name": "qrdnicapacitor",
-  "version": "0.0.1",
-  "description": "lectura y validación de códigos QR generados por la app MiDNI",
+  "version": "1.0.3",
+  "description": "Lectura y validación de códigos QR generados por la app MiDNI",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -16,7 +16,7 @@
     "Qrdnicapacitor.podspec"
   ],
   "author": "Diego Cid Merino",
-  "license": "MIT",
+  "license": "Commercial",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diegocidm4/qrdnicapacitor.git"

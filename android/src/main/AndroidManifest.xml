@@ -1,2 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cqesolutions.qrdnicapacitor">
+
+    <application>
+        <activity 
+            android:name="com.cqesolutions.qrdnicapacitor.QrCodeScanner" 
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+            android:exported="false" />
+    </application>
+
+</manifest>
+<!--
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 </manifest>
+-->
