@@ -33,7 +33,7 @@ export interface MiDNIData {
   rawSignature: string;
   signedData: string;
   certificateRef: string;
-  type?: number;
+  type?: string;
   verificationResult: {
     status: 'VALID' | 'INVALID' | 'NO_CERTIFICATES' | 'INVALID_QR' | 'EXPIRED_QR' | 'UNKNOWN';
     certificate?: string; // Solo presente si el status es VALID
