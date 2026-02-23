@@ -52,10 +52,10 @@ repositories {
 }
 
 dependencies {
-    //implementation files('libs/qrdnidroid-release.aar')
-    implementation(name: 'qrdnidroid-release', ext: 'aar')
+    implementation files('libs/qrdnidroid-release.aar')
+    //implementation(name: 'qrdnidroid-release', ext: 'aar')
     implementation files('libs/jpeg2000.jar')
-    //implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     implementation ('me.dm7.barcodescanner:zxing:1.9.8') {
         exclude group: 'com.android.support'
     }

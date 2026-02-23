@@ -1,6 +1,6 @@
 {
   "name": "qrdnicapacitor",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lectura y validación de códigos QR generados por la app MiDNI",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,9 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "Qrdnicapacitor.podspec"
+    "Qrdnicapacitor.podspec",
+    "android/libs/qrdnidroid-release.aar",
+    "android/libs/jpeg2000.jar"
   ],
   "author": "Diego Cid Merino",
   "license": "Commercial",
