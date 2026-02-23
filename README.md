@@ -98,7 +98,7 @@ abrirEscaner() => Promise<any>
 | **`rawSignature`**       | <code>string</code>                                                                                                                    |
 | **`signedData`**         | <code>string</code>                                                                                                                    |
 | **`certificateRef`**     | <code>string</code>                                                                                                                    |
-| **`type`**               | <code>number</code>                                                                                                                    |
+| **`type`**               | <code>string</code>                                                                                                                    |
 | **`verificationResult`** | <code>{ status: 'VALID' \| 'INVALID' \| 'NO_CERTIFICATES' \| 'INVALID_QR' \| 'EXPIRED_QR' \| 'UNKNOWN'; certificate?: string; }</code> |
 | **`qrDataExpiry`**       | <code>string</code>                                                                                                                    |
 | **`fullBirthPlace`**     | <code>string</code>                                                                                                                    |
