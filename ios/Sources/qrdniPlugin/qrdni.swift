@@ -88,13 +88,17 @@ import UIKit
             case .invalidQR:
                 verificationJson["status"] = "INVALID_QR"
             case .expiratedQR:
-                verificationJson["status"] = "EXPIRED_QR"
+                verificationJson["status"] = "EXPIRATED_QR"
             }
             
             json["verificationResult"] = verificationJson
         } else {
             json["verificationResult"] = ["status": "UNKNOWN"]
         }
+
+
+
+
 
         json["qrDataExpiry"] = miDNIData.qrDataExpiry ?? ""
 

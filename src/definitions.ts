@@ -35,7 +35,7 @@ export interface MiDNIData {
   certificateRef: string;
   type?: string;
   verificationResult: {
-    status: 'VALID' | 'INVALID' | 'NO_CERTIFICATES' | 'INVALID_QR' | 'EXPIRED_QR' | 'UNKNOWN';
+    status: 'VALID' | 'INVALID' | 'NO_CERTIFICATES' | 'INVALID_QR' | 'EXPIRATED_QR' | 'UNKNOWN';
     certificate?: string; // Solo presente si el status es VALID
   }; 
   qrDataExpiry: string;

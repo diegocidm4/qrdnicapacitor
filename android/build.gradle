@@ -46,9 +46,6 @@ android {
 repositories {
     google()
     mavenCentral()
-    flatDir {
-        dirs 'libs' // Esto le dice a Gradle que busque librerías en la carpeta libs
-    }
 }
 
 dependencies {

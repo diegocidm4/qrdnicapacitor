@@ -1,6 +1,6 @@
 {
   "name": "qrdnicapacitor",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lectura y validación de códigos QR generados por la app MiDNI",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

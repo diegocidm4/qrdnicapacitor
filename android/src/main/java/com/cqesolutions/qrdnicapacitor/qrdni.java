@@ -110,8 +110,11 @@ public class qrdni {
                 case "NO_CERTIFICATES":
                     verificationJson.put("status", "NO_CERTIFICATES");
                     break;
-                case "EXPIRED_QR":
-                    verificationJson.put("status", "EXPIRED_QR");
+                case "INVALID_QR":
+                    verificationJson.put("status", "INVALID_QR");
+                    break;
+                case "EXPIRATED_QR":
+                    verificationJson.put("status", "EXPIRATED_QR");
                     break;
                 default:
                     verificationJson.put("status", "INVALID");
