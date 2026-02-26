@@ -11,9 +11,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", from: "8.0.0"),
-        .package(url: "https://github.com/diegocidm4/iQRDNI.git", from: "1.0.3")
-        // ,
-        //.package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", exact: "1.6.0")
+        .package(url: "https://github.com/diegocidm4/iQRDNI.git", from: "1.0.3"),
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", exact: "1.6.0")
     ],
     targets: [
         .target(
@@ -21,9 +20,8 @@ let package = Package(
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
                 .product(name: "Cordova", package: "capacitor-swift-pm"),
-                .product(name: "iQRDNI", package: "iQRDNI")
-                //,
-                //.product(name: "CryptoSwift", package: "CryptoSwift")
+                .product(name: "iQRDNI", package: "iQRDNI"),
+                .product(name: "CryptoSwift", package: "CryptoSwift")
             ],
             path: "ios/Sources/qrdniPlugin"),
         .testTarget(

@@ -78,29 +78,29 @@ abrirEscaner() => Promise<any>
 
 #### MiDNIData
 
-| Prop                     | Type                                                                                                                                   |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **`dni`**                | <code>string</code>                                                                                                                    |
-| **`name`**               | <code>string</code>                                                                                                                    |
-| **`surnames`**           | <code>string</code>                                                                                                                    |
-| **`birthDate`**          | <code>string</code>                                                                                                                    |
-| **`expiryDate`**         | <code>string</code>                                                                                                                    |
-| **`gender`**             | <code>string</code>                                                                                                                    |
-| **`address`**            | <code>string</code>                                                                                                                    |
-| **`nationality`**        | <code>string</code>                                                                                                                    |
-| **`parents`**            | <code>string</code>                                                                                                                    |
-| **`supportNumber`**      | <code>string</code>                                                                                                                    |
-| **`birthPlace1`**        | <code>string</code>                                                                                                                    |
-| **`birthPlace2`**        | <code>string</code>                                                                                                                    |
-| **`birthPlace3`**        | <code>string</code>                                                                                                                    |
-| **`photoData`**          | <code>string</code>                                                                                                                    |
-| **`isAdult`**            | <code>boolean</code>                                                                                                                   |
-| **`rawSignature`**       | <code>string</code>                                                                                                                    |
-| **`signedData`**         | <code>string</code>                                                                                                                    |
-| **`certificateRef`**     | <code>string</code>                                                                                                                    |
-| **`type`**               | <code>string</code>                                                                                                                    |
-| **`verificationResult`** | <code>{ status: 'VALID' \| 'INVALID' \| 'NO_CERTIFICATES' \| 'INVALID_QR' \| 'EXPIRED_QR' \| 'UNKNOWN'; certificate?: string; }</code> |
-| **`qrDataExpiry`**       | <code>string</code>                                                                                                                    |
-| **`fullBirthPlace`**     | <code>string</code>                                                                                                                    |
+| Prop                     | Type                                                                                                                                     |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **`dni`**                | <code>string</code>                                                                                                                      |
+| **`name`**               | <code>string</code>                                                                                                                      |
+| **`surnames`**           | <code>string</code>                                                                                                                      |
+| **`birthDate`**          | <code>string</code>                                                                                                                      |
+| **`expiryDate`**         | <code>string</code>                                                                                                                      |
+| **`gender`**             | <code>string</code>                                                                                                                      |
+| **`address`**            | <code>string</code>                                                                                                                      |
+| **`nationality`**        | <code>string</code>                                                                                                                      |
+| **`parents`**            | <code>string</code>                                                                                                                      |
+| **`supportNumber`**      | <code>string</code>                                                                                                                      |
+| **`birthPlace1`**        | <code>string</code>                                                                                                                      |
+| **`birthPlace2`**        | <code>string</code>                                                                                                                      |
+| **`birthPlace3`**        | <code>string</code>                                                                                                                      |
+| **`photoData`**          | <code>string</code>                                                                                                                      |
+| **`isAdult`**            | <code>boolean</code>                                                                                                                     |
+| **`rawSignature`**       | <code>string</code>                                                                                                                      |
+| **`signedData`**         | <code>string</code>                                                                                                                      |
+| **`certificateRef`**     | <code>string</code>                                                                                                                      |
+| **`type`**               | <code>string</code>                                                                                                                      |
+| **`verificationResult`** | <code>{ status: 'VALID' \| 'INVALID' \| 'NO_CERTIFICATES' \| 'INVALID_QR' \| 'EXPIRATED_QR' \| 'UNKNOWN'; certificate?: string; }</code> |
+| **`qrDataExpiry`**       | <code>string</code>                                                                                                                      |
+| **`fullBirthPlace`**     | <code>string</code>                                                                                                                      |
 
 </docgen-api>
