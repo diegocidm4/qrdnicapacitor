@@ -89,7 +89,7 @@ public class QrCodeScanner extends AppCompatActivity {
         if (returnString) {
             handled = true;
             Intent intent = new Intent();
-            intent.putExtra(Constantes.KEY_QR_CODE, normalizeText(rawResult.getText()));
+            intent.putExtra(KEY_QR_CODE, normalizeText(rawResult.getText()));
             setResult(RESULT_OK, intent);
             finish();
         } else {
@@ -103,7 +103,7 @@ public class QrCodeScanner extends AppCompatActivity {
                 Log.d("QrCodeScanner", "Bytes leídos: " + rawBytes.length);
 
                 Intent intent = new Intent();
-                intent.putExtra(Constantes.KEY_QR_CODE, base64Result);
+                intent.putExtra(KEY_QR_CODE, base64Result);
                 setResult(RESULT_OK, intent);
                 finish();
             } else {
